@@ -1,7 +1,5 @@
 // compile with
 // gcc -O -o gpioget gpioget.c
-// run with
-// sudo chrt 99 ./dht <GPIO_PIN> <SAMPLING_INTERVAL>
 
 #define DEVICE "/dev/gpiomem"
 #define GPIOMEM_SIZE 0xB4
