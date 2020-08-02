@@ -1,5 +1,12 @@
 # gpio
-mmap-variant gpio tools for raspberry pi 
+mmap-variant gpio tools for raspberry pi.
+
+Compile with
+
+```
+gcc -O -o gpioget gpioget.c
+gcc -O -o gpioset gpioset.c
+```
 
 To run it under a non-root account, change group and mode of /dev/gpiomem file. For example,
 
